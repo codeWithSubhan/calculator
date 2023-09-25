@@ -1,0 +1,24 @@
+div{
+    width: 34%;
+    border: 1px solid black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+input[type="text"]{
+    width: 98%;
+    display: block;
+    height: 60px;
+    text-align: right;
+}
+input[type="button"]{
+    width: 100px;
+    height: 50px;
+    margin: 5px;
+    align-items: center;
+    
+}
+input:nth-last-child(1){
+width: 98%;
+}
